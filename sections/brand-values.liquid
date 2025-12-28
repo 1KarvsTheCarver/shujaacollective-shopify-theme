@@ -1,0 +1,296 @@
+{% comment %}
+  Brand Values Section - Patagonia Style
+  Compatible with Shopify Horizon Theme
+{% endcomment %}
+
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<div
+  class="section section--{{ section.settings.section_width }} brand-values color-{{ section.settings.color_scheme }}"
+  style="
+    --padding-block-start: {{ section.settings.padding_block_start }}px;
+    --padding-block-end: {{ section.settings.padding_block_end }}px;
+  "
+>
+  <div class="page-width">
+    <div class="values-grid">
+      {%- for block in section.blocks -%}
+        <div class="value-column" {{ block.shopify_attributes }}>
+          {%- if block.settings.icon != blank -%}
+            <div class="value-icon">
+              {{ block.settings.icon }}
+            </div>
+          {%- endif -%}
+          {%- if block.settings.heading != blank -%}
+            <h3 class="value-heading">{{ block.settings.heading }}</h3>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            <div class="value-text">{{ block.settings.text }}</div>
+          {%- endif -%}
+          {%- if block.settings.link_text != blank and block.settings.link_url != blank -%}
+            <a href="{{ block.settings.link_url }}" class="value-link">
+              {{ block.settings.link_text }}
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .brand-values {
+    padding-block-start: var(--padding-block-start);
+    padding-block-end: var(--padding-block-end);
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .value-column {
+    text-align: left;
+  }
+
+  .value-icon {
+    margin-bottom: 24px;
+    opacity: 0.9;
+  }
+
+  .value-icon svg {
+    width: 48px;
+    height: 48px;
+    stroke: currentColor;
+  }
+
+  .value-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.3;
+    color: var(--color-foreground-heading);
+  }
+
+  .value-text {
+    font-size: 15px;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    color: var(--color-foreground);
+  }
+
+  .value-text p {
+    margin: 0;
+  }
+
+  .value-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: opacity 0.2s;
+  }
+
+  .value-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+
+  .value-link::after {
+    content: '→';
+    margin-left: 4px;
+    transition: transform 0.2s;
+  }
+
+  .value-link:hover::after {
+    transform: translateX(4px);
+  }
+
+  @media (max-width: 1024px) {
+    .values-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .brand-values {
+      padding-inline: 20px;
+    }
+
+    .values-grid {
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+
+    .value-column {
+      text-align: center;
+    }
+
+    .value-icon {
+      display: flex;
+      justify-content: center;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Brand Values",
+  "class": "section-brand-values",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "scheme-1",
+          "label": "Scheme 1"
+        },
+        {
+          "value": "scheme-2",
+          "label": "Scheme 2"
+        },
+        {
+          "value": "scheme-3",
+          "label": "Scheme 3"
+        },
+        {
+          "value": "scheme-5",
+          "label": "Scheme 5 (Dark)"
+        }
+      ],
+      "default": "scheme-5",
+      "info": "Use Scheme 5 for black background like Patagonia"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "Section width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "Page width"
+        },
+        {
+          "value": "full-width",
+          "label": "Full width"
+        }
+      ],
+      "default": "full-width"
+    },
+    {
+      "type": "range",
+      "id": "padding_block_start",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_block_end",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 80
+    }
+  ],
+  "blocks": [
+    {
+      "type": "value",
+      "name": "Value",
+      "settings": [
+        {
+          "type": "html",
+          "id": "icon",
+          "label": "Icon SVG",
+          "default": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><polyline points='20 6 9 17 4 12'/></svg>",
+          "info": "Paste SVG code for the icon"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "We Encourage Imperfection"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Description",
+          "default": "<p>Because something's better than nothing—always. Start messy. Adventure anyway. The perfect trip is the one you actually take.</p>"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text",
+          "default": "Our Story"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand Values",
+      "blocks": [
+        {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><rect x='2' y='2' width='20' height='20' rx='2'/><polygon points='10 8 16 12 10 16 10 8'/></svg>",
+            "heading": "We Create Content That Inspires",
+            "text": "<p>Every video is an invitation to explore. From trail guides to gear reviews, we document real adventures that motivate you to create your own.</p>",
+            "link_text": "Watch Our Journey",
+            "link_url": "https://youtube.com/@shujaaking"
+          }
+        },
+        {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2L2 7l10 5 10-5-10-5z'/><path d='M2 17l10 5 10-5M2 12l10 5 10-5'/></svg>",
+            "heading": "We Build Quality Gear",
+            "text": "<p>Designed for real adventurers, tested in the wild. If it can't handle the outdoors, it doesn't leave our warehouse.</p>",
+            "link_text": "Shop the Collection",
+            "link_url": "/collections/all"
+          }
+        },
+        {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/><circle cx='9' cy='7' r='4'/><path d='M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75'/></svg>",
+            "heading": "We Support the Outdoors",
+            "text": "<p>A portion of every purchase goes toward conservation efforts. When you gear up, you're giving back to the trails, rivers, and wild places we all love.</p>",
+            "link_text": "Learn More",
+            "link_url": "/pages/conservation"
+          }
+        },
+        {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><polyline points='20 6 9 17 4 12'/></svg>",
+            "heading": "We Encourage Imperfection",
+            "text": "<p>Because something's better than nothing—always. Start messy. Adventure anyway. The perfect trip is the one you actually take.</p>",
+            "link_text": "Our Story",
+            "link_url": "/pages/about"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
