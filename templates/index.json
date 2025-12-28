@@ -75,190 +75,305 @@
         "padding-block-end": 0
       }
     },
-    "product_list_fa6P9H": {
-      "type": "product-list",
+    "media_with_content_KdP9mQ": {
+      "type": "media-with-content",
       "blocks": {
-        "static-header": {
-          "type": "_product-list-content",
-          "static": true,
+        "heading_block": {
+          "type": "heading",
           "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
-            "align_baseline": true,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_list_text_YFtzcL": {
-              "type": "_product-list-text",
-              "settings": {
-                "text": "<h3>Featured Products</h3>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            },
-            "product_list_button_MWeP9V": {
-              "type": "_product-list-button",
-              "settings": {
-                "label": "View all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              }
-            }
-          },
-          "block_order": [
-            "product_list_text_YFtzcL",
-            "product_list_button_MWeP9V"
-          ]
+            "heading": "From Trail to Screen",
+            "type_preset": "h2"
+          }
         },
-        "static-product-card": {
-          "type": "_product-card",
-          "static": true,
+        "text_block": {
+          "type": "text",
           "settings": {
-            "product_card_gap": 4,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "product_card_gallery_677WP3": {
-              "type": "_product-card-gallery",
-              "settings": {
-                "image_ratio": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            },
-            "product_title_YXxMTj": {
-              "type": "product-title",
-              "settings": {
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            },
-            "price_JQzVV4": {
-              "type": "price",
-              "settings": {
-                "show_sale_price_first": true,
-                "show_installments": false,
-                "show_tax_info": false,
-                "type_preset": "h6",
-                "width": "100%",
-                "alignment": "left",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "color": "var(--color-foreground)",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              }
-            }
-          },
-          "block_order": [
-            "product_card_gallery_677WP3",
-            "product_title_YXxMTj",
-            "price_JQzVV4"
-          ]
+            "text": "<p>Follow along as we explore the great outdoors, one adventure at a time. Every video is an invitation to get outside.</p>"
+          }
+        },
+        "button_block": {
+          "type": "button",
+          "settings": {
+            "label": "Watch on YouTube",
+            "link": "https://youtube.com/@shujaaking",
+            "open_in_new_tab": true,
+            "style_class": "button-primary"
+          }
         }
       },
+      "block_order": [
+        "heading_block",
+        "text_block",
+        "button_block"
+      ],
       "settings": {
-        "collection": "all",
-        "layout_type": "grid",
-        "carousel_on_mobile": false,
-        "max_products": 8,
-        "columns": 4,
-        "mobile_columns": "2",
-        "mobile_card_size": "60cqw",
-        "columns_gap": 8,
-        "rows_gap": 24,
-        "icons_style": "arrow",
-        "icons_shape": "none",
-        "section_width": "page-width",
-        "horizontal_alignment": "flex-start",
-        "gap": 28,
-        "color_scheme": "scheme-1",
+        "media_type": "image",
+        "image": "",
+        "video": "",
+        "video_position": "cover",
+        "media_position": "left",
+        "media_width": 50,
+        "content_alignment": "center",
+        "section_width": "full-width",
+        "color_scheme": "scheme-2",
         "padding-block-start": 80,
         "padding-block-end": 80
+      }
+    },
+    "collection_list_XmP4nK": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "Hats & Headwear",
+            "subheading": "Shop",
+            "link": "shopify://collections/hats"
+          }
+        },
+        "collection_2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "Apparel",
+            "subheading": "Shop",
+            "link": "shopify://collections/apparel"
+          }
+        },
+        "collection_3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "Accessories",
+            "subheading": "Shop",
+            "link": "shopify://collections/accessories"
+          }
+        },
+        "collection_4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "Gift Cards",
+            "subheading": "Shop",
+            "link": "/products/gift-card"
+          }
+        }
+      },
+      "block_order": [
+        "collection_1",
+        "collection_2",
+        "collection_3",
+        "collection_4"
+      ],
+      "settings": {
+        "heading": "Shop by Collection",
+        "columns": 4,
+        "mobile_columns": "2",
+        "section_width": "page-width",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 80,
+        "padding-block-end": 40
+      }
+    },
+    "hero_featured_story": {
+      "type": "hero",
+      "blocks": {
+        "heading_story": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>For Those Who Adventure Anyway</h2>",
+            "width": "fit-content",
+            "max_width": "large",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--type-heading-font)",
+            "color": "var(--color-foreground-heading)",
+            "wrap": "pretty"
+          }
+        },
+        "text_story": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made for real explorers—not fair-weather followers. Our gear goes where content creators fear to tread.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "color": "var(--color-foreground)"
+          }
+        },
+        "button_story": {
+          "type": "button",
+          "settings": {
+            "label": "Shop the Collection",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button-primary",
+            "width": "fit-content"
+          }
+        }
+      },
+      "block_order": [
+        "heading_story",
+        "text_story",
+        "button_story"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "",
+        "section_width": "full-width",
+        "section_height": "medium",
+        "section_height_custom": 100,
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#00000060",
+        "overlay_style": "solid",
+        "content_direction": "column",
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "collection_list_activities": {
+      "type": "collection-list",
+      "blocks": {
+        "activity_camping": {
+          "type": "collection",
+          "settings": {
+            "collection": "camping",
+            "heading": "Camping",
+            "subheading": "Explore",
+            "link": "shopify://collections/camping"
+          }
+        },
+        "activity_hiking": {
+          "type": "collection",
+          "settings": {
+            "collection": "hiking",
+            "heading": "Hiking",
+            "subheading": "Explore",
+            "link": "shopify://collections/hiking"
+          }
+        },
+        "activity_magnet_fishing": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "heading": "Magnet Fishing",
+            "subheading": "Explore",
+            "link": "shopify://collections/magnet-fishing"
+          }
+        }
+      },
+      "block_order": [
+        "activity_camping",
+        "activity_hiking",
+        "activity_magnet_fishing"
+      ],
+      "settings": {
+        "heading": "Explore by Activity",
+        "columns": 3,
+        "mobile_columns": "1",
+        "section_width": "page-width",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
+    "latest_adventures_videos": {
+      "type": "latest-adventures",
+      "blocks": {},
+      "settings": {
+        "heading": "Latest Videos",
+        "youtube_url": "https://youtube.com/@shujaaking",
+        "color_scheme": "scheme-1",
+        "section_width": "page-width",
+        "padding_block_start": 80,
+        "padding_block_end": 80
+      }
+    },
+    "newsletter_signup": {
+      "type": "newsletter-adventure",
+      "settings": {
+        "heading": "Join the Adventure",
+        "subheading": "Get updates on new gear, latest videos, and exclusive offers.",
+        "email_placeholder": "Enter your email",
+        "button_label": "Sign Me Up",
+        "color_scheme": "scheme-2",
+        "section_width": "page-width",
+        "padding_block_start": 60,
+        "padding_block_end": 60
+      }
+    },
+    "brand_values_footer": {
+      "type": "brand-values",
+      "blocks": {
+        "value_content": {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><rect x='2' y='2' width='20' height='20' rx='2'/><polygon points='10 8 16 12 10 16 10 8'/></svg>",
+            "heading": "We Create Content That Inspires",
+            "text": "<p>Every video is an invitation to explore. From trail guides to gear reviews, we document real adventures that motivate you to create your own.</p>",
+            "link_text": "Watch Our Journey",
+            "link_url": "https://youtube.com/@shujaaking"
+          }
+        },
+        "value_quality": {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2L2 7l10 5 10-5-10-5z'/><path d='M2 17l10 5 10-5M2 12l10 5 10-5'/></svg>",
+            "heading": "We Build Quality Gear",
+            "text": "<p>Designed for real adventurers, tested in the wild. If it can't handle the outdoors, it doesn't leave our warehouse.</p>",
+            "link_text": "Shop the Collection",
+            "link_url": "/collections/all"
+          }
+        },
+        "value_conservation": {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/><circle cx='9' cy='7' r='4'/><path d='M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75'/></svg>",
+            "heading": "We Support the Outdoors",
+            "text": "<p>A portion of every purchase goes toward conservation efforts. When you gear up, you're giving back to the trails, rivers, and wild places we all love.</p>",
+            "link_text": "Learn More",
+            "link_url": "/pages/conservation"
+          }
+        },
+        "value_imperfection": {
+          "type": "value",
+          "settings": {
+            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><polyline points='20 6 9 17 4 12'/></svg>",
+            "heading": "We Encourage Imperfection",
+            "text": "<p>Because something's better than nothing—always. Start messy. Adventure anyway. The perfect trip is the one you actually take.</p>",
+            "link_text": "Our Story",
+            "link_url": "/pages/about"
+          }
+        }
+      },
+      "block_order": [
+        "value_content",
+        "value_quality",
+        "value_conservation",
+        "value_imperfection"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "section_width": "full-width",
+        "padding_block_start": 80,
+        "padding_block_end": 80
       }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_fa6P9H"
+    "media_with_content_KdP9mQ",
+    "collection_list_XmP4nK",
+    "hero_featured_story",
+    "collection_list_activities",
+    "latest_adventures_videos",
+    "newsletter_signup",
+    "brand_values_footer"
   ]
 }
