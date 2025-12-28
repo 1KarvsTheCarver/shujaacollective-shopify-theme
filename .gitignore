@@ -1,0 +1,17 @@
+# Documentation files (keep local only)
+*.md
+!README.md
+
+# CSV files
+*.csv
+
+# ZIP files
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
