@@ -20,7 +20,14 @@
       "Bash(npm bin:*)",
       "Bash(npm prefix:*)",
       "Bash(\"C:\\\\Users\\\\Taqiudin\\\\AppData\\\\Roaming\\\\npm\\\\shopify.cmd\" theme push --unpublished)",
-      "Bash(\"C:\\\\Users\\\\Taqiudin\\\\AppData\\\\Roaming\\\\npm\\\\shopify.cmd\" theme list)"
+      "Bash(\"C:\\\\Users\\\\Taqiudin\\\\AppData\\\\Roaming\\\\npm\\\\shopify.cmd\" theme list)",
+      "Bash(ls:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(cat:*)",
+      "Bash(for file in templates/*.json)",
+      "Bash(do echo \"Checking $file...\")",
+      "Bash(done)"
     ]
   }
 }
