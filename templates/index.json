@@ -78,54 +78,90 @@
     "collection_list_XmP4nK": {
       "type": "collection-list",
       "blocks": {
-        "collection_1": {
-          "type": "collection",
+        "heading_collections": {
+          "type": "text",
           "settings": {
-            "collection": "",
-            "heading": "Hats & Headwear",
-            "subheading": "Shop Now",
-            "link": "shopify://collections/hats"
+            "text": "<h2>Shop by Collection</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 16,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           }
         },
-        "collection_2": {
-          "type": "collection",
+        "static-collection-card": {
+          "type": "_collection-card",
+          "static": true,
           "settings": {
-            "collection": "",
-            "heading": "Apparel",
-            "subheading": "Shop Now",
-            "link": "shopify://collections/apparel"
-          }
-        },
-        "collection_3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "Accessories",
-            "subheading": "Shop Now",
-            "link": "shopify://collections/accessories"
-          }
-        },
-        "collection_4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "Gift Cards",
-            "subheading": "Give Adventure",
-            "link": "/products/gift-card"
-          }
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "placement": "on_image",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "image_ratio": "adapt"
+              }
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "background": true,
+                "background_color": "#ffffff",
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
+              }
+            }
+          },
+          "block_order": ["collection-card-image", "collection-title"]
         }
       },
       "block_order": [
-        "collection_1",
-        "collection_2",
-        "collection_3",
-        "collection_4"
+        "heading_collections"
       ],
       "settings": {
-        "heading": "Shop by Collection",
+        "collection_list": [],
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
         "columns": 4,
         "mobile_columns": "2",
+        "columns_gap": 8,
+        "rows_gap": 8,
         "section_width": "page-width",
+        "gap": 12,
         "color_scheme": "scheme-1",
         "padding-block-start": 80,
         "padding-block-end": 40
@@ -195,44 +231,90 @@
     "collection_list_activities": {
       "type": "collection-list",
       "blocks": {
-        "activity_camping": {
-          "type": "collection",
+        "heading_activities": {
+          "type": "text",
           "settings": {
-            "collection": "camping",
-            "heading": "Camping",
-            "subheading": "Explore",
-            "link": "shopify://collections/camping"
+            "text": "<h2>Explore by Activity</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 16,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           }
         },
-        "activity_hiking": {
-          "type": "collection",
+        "static-collection-card-activities": {
+          "type": "_collection-card",
+          "static": true,
           "settings": {
-            "collection": "hiking",
-            "heading": "Hiking",
-            "subheading": "Explore",
-            "link": "shopify://collections/hiking"
-          }
-        },
-        "activity_magnet_fishing": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "Magnet Fishing",
-            "subheading": "Explore",
-            "link": "shopify://collections/magnet-fishing"
-          }
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "placement": "on_image",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection-card-image-activities": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "image_ratio": "adapt"
+              }
+            },
+            "collection-title-activities": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "background": true,
+                "background_color": "#ffffff",
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
+              }
+            }
+          },
+          "block_order": ["collection-card-image-activities", "collection-title-activities"]
         }
       },
       "block_order": [
-        "activity_camping",
-        "activity_hiking",
-        "activity_magnet_fishing"
+        "heading_activities"
       ],
       "settings": {
-        "heading": "Explore by Activity",
+        "collection_list": [],
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
         "columns": 3,
         "mobile_columns": "1",
+        "columns_gap": 8,
+        "rows_gap": 8,
         "section_width": "page-width",
+        "gap": 12,
         "color_scheme": "scheme-1",
         "padding-block-start": 40,
         "padding-block-end": 80
