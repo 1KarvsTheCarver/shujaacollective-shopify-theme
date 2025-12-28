@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_jVaWmY": {
@@ -12,9 +21,21 @@
             "alignment": "center",
             "type_preset": "h1",
             "font": "var(--type-heading-font)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
             "color": "var(--color-foreground-heading)",
-            "wrap": "pretty"
-          }
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "subheading_block": {
           "type": "text",
@@ -25,8 +46,21 @@
             "alignment": "center",
             "type_preset": "h4",
             "font": "var(--font-body--family)",
-            "color": "var(--color-foreground)"
-          }
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "button_H9gpTf": {
           "type": "button",
@@ -35,8 +69,12 @@
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button-primary",
-            "width": "fit-content"
-          }
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
@@ -46,7 +84,8 @@
       ],
       "settings": {
         "media_type_1": "image",
-        "image_1": "",
+        "image_1": "shopify://shop_images/Gemini_Generated_Image_ytdagqytdagqytda.png",
+        "media_type_2": "image",
         "stack_media_on_mobile": false,
         "custom_mobile_media": false,
         "media_type_1_mobile": "image",
@@ -100,22 +139,43 @@
             "padding-block-end": 16,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         },
         "static-collection-card": {
           "type": "_collection-card",
           "static": true,
           "settings": {
+            "placement": "on_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-start",
-            "placement": "on_image",
+            "collection_card_gap": 8,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0
-          }
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "image_ratio": "portrait",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": []
         }
       },
       "block_order": [
@@ -127,8 +187,13 @@
         "carousel_on_mobile": false,
         "columns": 4,
         "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
         "columns_gap": 8,
+        "bento_gap": 8,
         "rows_gap": 8,
+        "max_collections": 4,
+        "icons_style": "arrow",
+        "icons_shape": "none",
         "section_width": "page-width",
         "gap": 12,
         "color_scheme": "scheme-1",
@@ -148,9 +213,21 @@
             "alignment": "center",
             "type_preset": "h2",
             "font": "var(--type-heading-font)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
             "color": "var(--color-foreground-heading)",
-            "wrap": "pretty"
-          }
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "text_story": {
           "type": "text",
@@ -161,8 +238,21 @@
             "alignment": "center",
             "type_preset": "paragraph",
             "font": "var(--font-body--family)",
-            "color": "var(--color-foreground)"
-          }
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "button_story": {
           "type": "button",
@@ -171,8 +261,12 @@
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button-primary",
-            "width": "fit-content"
-          }
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
@@ -182,17 +276,32 @@
       ],
       "settings": {
         "media_type_1": "image",
-        "image_1": "",
+        "image_1": "shopify://shop_images/Gemini_Generated_Image_q0iw9hq0iw9hq0iw.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
         "section_width": "full-width",
         "section_height": "medium",
         "section_height_custom": 100,
         "color_scheme": "scheme-6",
         "toggle_overlay": true,
-        "overlay_color": "#00000060",
+        "overlay_color": "#00000061",
         "overlay_style": "solid",
-        "content_direction": "column",
-        "horizontal_alignment": "center",
-        "vertical_alignment": "center",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -222,22 +331,43 @@
             "padding-block-end": 16,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {}
         },
-        "static-collection-card-activities": {
+        "static-collection-card": {
           "type": "_collection-card",
           "static": true,
           "settings": {
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "flex-start",
             "placement": "on_image",
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "collection_card_gap": 8,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0
-          }
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "image_ratio": "portrait",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": []
         }
       },
       "block_order": [
@@ -249,8 +379,13 @@
         "carousel_on_mobile": false,
         "columns": 3,
         "mobile_columns": "1",
+        "mobile_card_size": "60cqw",
         "columns_gap": 8,
+        "bento_gap": 8,
         "rows_gap": 8,
+        "max_collections": 4,
+        "icons_style": "arrow",
+        "icons_shape": "none",
         "section_width": "page-width",
         "gap": 12,
         "color_scheme": "scheme-1",
@@ -316,7 +451,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             },
             "product_list_button_view_all": {
               "type": "_product-list-button",
@@ -328,7 +464,8 @@
                 "custom_width": 100,
                 "width_mobile": "fit-content",
                 "custom_width_mobile": 100
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -365,7 +502,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             },
             "product_title": {
               "type": "product-title",
@@ -388,7 +526,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             },
             "price": {
               "type": "price",
@@ -409,7 +548,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -458,7 +598,7 @@
         "value_content": {
           "type": "value",
           "settings": {
-            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><rect x='2' y='2' width='20' height='20' rx='2'/><polygon points='10 8 16 12 10 16 10 8'/></svg>",
+            "icon": "<svg width=\"48\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2\"></rect><polygon points=\"10 8 16 12 10 16 10 8\"></polygon></svg>",
             "heading": "We Create Content That Inspires",
             "text": "<p>Every video is an invitation to explore. From trail guides to gear reviews, we document real adventures that motivate you to create your own.</p>",
             "link_text": "Watch Our Journey",
@@ -468,7 +608,7 @@
         "value_quality": {
           "type": "value",
           "settings": {
-            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2L2 7l10 5 10-5-10-5z'/><path d='M2 17l10 5 10-5M2 12l10 5 10-5'/></svg>",
+            "icon": "<svg width=\"48\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2L2 7l10 5 10-5-10-5z\"></path><path d=\"M2 17l10 5 10-5M2 12l10 5 10-5\"></path></svg>",
             "heading": "We Build Quality Gear",
             "text": "<p>Designed for real adventurers, tested in the wild. If it can't handle the outdoors, it doesn't leave our warehouse.</p>",
             "link_text": "Shop the Collection",
@@ -478,7 +618,7 @@
         "value_conservation": {
           "type": "value",
           "settings": {
-            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/><circle cx='9' cy='7' r='4'/><path d='M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75'/></svg>",
+            "icon": "<svg width=\"48\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>",
             "heading": "We Support the Outdoors",
             "text": "<p>A portion of every purchase goes toward conservation efforts. When you gear up, you're giving back to the trails, rivers, and wild places we all love.</p>",
             "link_text": "Learn More",
@@ -488,7 +628,7 @@
         "value_imperfection": {
           "type": "value",
           "settings": {
-            "icon": "<svg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><polyline points='20 6 9 17 4 12'/></svg>",
+            "icon": "<svg width=\"48\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>",
             "heading": "We Encourage Imperfection",
             "text": "<p>Because something's better than nothing—always. Start messy. Adventure anyway. The perfect trip is the one you actually take.</p>",
             "link_text": "Our Story",
