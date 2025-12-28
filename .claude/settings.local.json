@@ -7,7 +7,20 @@
       "Bash(powershell:*)",
       "Bash(python:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(echo:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(shopify version:*)",
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "Bash(shopify theme push:*)",
+      "Bash(npm bin:*)",
+      "Bash(npm prefix:*)",
+      "Bash(\"C:\\\\Users\\\\Taqiudin\\\\AppData\\\\Roaming\\\\npm\\\\shopify.cmd\" theme push --unpublished)",
+      "Bash(\"C:\\\\Users\\\\Taqiudin\\\\AppData\\\\Roaming\\\\npm\\\\shopify.cmd\" theme list)"
     ]
   }
 }
