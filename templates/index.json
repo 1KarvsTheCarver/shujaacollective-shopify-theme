@@ -62,13 +62,14 @@
           },
           "blocks": {}
         },
-        "button_H9gpTf": {
+        "button_qHyjht": {
           "type": "button",
+          "name": "t:names.button",
           "settings": {
-            "label": "Wear Your Motivation",
+            "label": "Shop now",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
-            "style_class": "button-secondary",
+            "style_class": "button",
             "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fit-content",
@@ -80,7 +81,7 @@
       "block_order": [
         "text_YLPk4p",
         "subheading_block",
-        "button_H9gpTf"
+        "button_qHyjht"
       ],
       "settings": {
         "media_type_1": "image",
