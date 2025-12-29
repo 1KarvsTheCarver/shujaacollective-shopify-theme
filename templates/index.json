@@ -224,7 +224,7 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
+            "padding-inline-start": 15,
             "padding-inline-end": 0
           },
           "blocks": {}
@@ -249,22 +249,34 @@
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
+            "padding-inline-start": 15,
             "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "button_story": {
-          "type": "button",
+        "text_pgcbUX": {
+          "type": "text",
+          "name": "t:names.heading",
           "settings": {
-            "label": "Shop the Collection",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button-primary",
+            "text": "<h4><strong>New arrivals</strong></h4>",
             "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 15,
+            "padding-inline-end": 0
           },
           "blocks": {}
         }
@@ -272,7 +284,7 @@
       "block_order": [
         "heading_story",
         "text_story",
-        "button_story"
+        "text_pgcbUX"
       ],
       "settings": {
         "media_type_1": "image",
@@ -297,7 +309,7 @@
         "section_height_custom": 100,
         "color_scheme": "scheme-6",
         "toggle_overlay": true,
-        "overlay_color": "#00000061",
+        "overlay_color": "#00000056",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "blurred_reflection": false,
