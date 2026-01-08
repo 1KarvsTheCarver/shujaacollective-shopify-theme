@@ -394,6 +394,31 @@
           },
           "blocks": {}
         },
+        "text_coming_soon": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Camping</strong>, <strong>Hiking</strong>, and <strong>Magnet Fishing</strong> gear coming soon! Stay tuned for adventure-ready collections.</p>",
+            "width": "fit-content",
+            "max_width": "large",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 24,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "static-collection-card": {
           "type": "_collection-card",
           "static": true,
@@ -455,7 +480,8 @@
         }
       },
       "block_order": [
-        "heading_activities"
+        "heading_activities",
+        "text_coming_soon"
       ],
       "settings": {
         "collection_list": [],
