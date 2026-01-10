@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_jVaWmY": {
@@ -176,6 +185,30 @@
             "border_radius": 0
           },
           "blocks": {
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--type-heading-font)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": true,
+                "background_color": "#ffffff",
+                "corner_radius": 4,
+                "padding-block-start": 8,
+                "padding-block-end": 8,
+                "padding-inline-start": 12,
+                "padding-inline-end": 12
+              },
+              "blocks": {}
+            },
             "collection-card-image": {
               "type": "_collection-card-image",
               "static": true,
@@ -191,33 +224,11 @@
                 "border_radius": 0
               },
               "blocks": {}
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "settings": {
-                "type_preset": "h4",
-                "font": "var(--type-heading-font)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "color": "var(--color-foreground)",
-                "background": true,
-                "background_color": "#ffffff",
-                "corner_radius": 4,
-                "padding-block-start": 8,
-                "padding-block-end": 8,
-                "padding-inline-start": 12,
-                "padding-inline-end": 12
-              },
-              "blocks": {}
             }
           },
-          "block_order": ["collection-title"]
+          "block_order": [
+            "collection-title"
+          ]
         }
       },
       "block_order": [
@@ -435,6 +446,30 @@
             "border_radius": 0
           },
           "blocks": {
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--type-heading-font)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": true,
+                "background_color": "#ffffff",
+                "corner_radius": 4,
+                "padding-block-start": 8,
+                "padding-block-end": 8,
+                "padding-inline-start": 12,
+                "padding-inline-end": 12
+              },
+              "blocks": {}
+            },
             "collection-card-image": {
               "type": "_collection-card-image",
               "static": true,
@@ -450,33 +485,11 @@
                 "border_radius": 0
               },
               "blocks": {}
-            },
-            "collection-title": {
-              "type": "collection-title",
-              "settings": {
-                "type_preset": "h4",
-                "font": "var(--type-heading-font)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "color": "var(--color-foreground)",
-                "background": true,
-                "background_color": "#ffffff",
-                "corner_radius": 4,
-                "padding-block-start": 8,
-                "padding-block-end": 8,
-                "padding-inline-start": 12,
-                "padding-inline-end": 12
-              },
-              "blocks": {}
             }
           },
-          "block_order": ["collection-title"]
+          "block_order": [
+            "collection-title"
+          ]
         }
       },
       "block_order": [
@@ -484,7 +497,11 @@
         "text_coming_soon"
       ],
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "magnet-fishing-gear-coming-soon",
+          "fishing-gear-coming-soon",
+          "camping-gear-coming-soon"
+        ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "columns": 3,
