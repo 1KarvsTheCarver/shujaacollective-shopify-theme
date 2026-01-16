@@ -732,16 +732,6 @@
             "link_url": "https://youtube.com/@shujaaking"
           }
         },
-        "value_quality": {
-          "type": "value",
-          "settings": {
-            "icon": "<svg width=\"48\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2L2 7l10 5 10-5-10-5z\"></path><path d=\"M2 17l10 5 10-5M2 12l10 5 10-5\"></path></svg>",
-            "heading": "We Build Quality Gear",
-            "text": "<p>Designed for real adventurers, tested in the wild. If it can't handle the outdoors, it doesn't leave our warehouse.</p>",
-            "link_text": "Shop the Collection",
-            "link_url": "/collections/all"
-          }
-        },
         "value_conservation": {
           "type": "value",
           "settings": {
@@ -765,7 +755,6 @@
       },
       "block_order": [
         "value_content",
-        "value_quality",
         "value_conservation",
         "value_imperfection"
       ],
