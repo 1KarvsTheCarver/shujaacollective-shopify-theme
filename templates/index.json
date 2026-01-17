@@ -581,12 +581,23 @@
             "link_text": "My Story",
             "link_url": "/pages/my-story"
           }
+        },
+        "value_YgtTk9": {
+          "type": "value",
+          "settings": {
+            "icon": "",
+            "heading": "",
+            "text": "",
+            "link_text": "Contact Us",
+            "link_url": "/pages/my-story"
+          }
         }
       },
       "block_order": [
         "value_content",
         "value_conservation",
-        "value_imperfection"
+        "value_imperfection",
+        "value_YgtTk9"
       ],
       "settings": {
         "color_scheme": "scheme-5",
