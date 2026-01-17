@@ -566,10 +566,10 @@
           "type": "value",
           "settings": {
             "icon": "<svg width=\"48\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>",
-            "heading": "We Support the Outdoors",
-            "text": "<p>A portion of every purchase goes toward conservation efforts. When you gear up, you're giving back to the trails, rivers, and wild places we all love.</p>",
-            "link_text": "Learn More",
-            "link_url": "/pages/conservation"
+            "heading": "Grab the Magnet",
+            "text": "<p>You’ve asked—here it is. Get your own magnet through my affiliate link and help support future trips, videos, and messy adventures.</p>",
+            "link_text": "Get One Here",
+            "link_url": "https://tr.ee/TDbtKq0UNT"
           }
         },
         "value_imperfection": {
