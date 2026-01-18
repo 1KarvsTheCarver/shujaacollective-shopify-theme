@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "",
     "logo_inverse": "",
+    "logo_height": 36,
+    "logo_height_mobile": 28,
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
     "type_heading_font": "inter_n7",
@@ -67,44 +77,45 @@
     "variant_button_border_width": 1,
     "variant_button_radius": 14,
     "variant_button_width": "equal-width-buttons",
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
           "background": "#ffffff",
-          "foreground_heading": "#2D4A4A",
-          "foreground": "#2D4A4A",
-          "primary": "#E8915B",
-          "primary_hover": "#D67D47",
-          "border": "#E8915B40",
-          "shadow": "#2D4A4A",
-          "primary_button_background": "#E8915B",
+          "foreground_heading": "#2d4a4a",
+          "foreground": "#2d4a4a",
+          "primary": "#e8915b",
+          "primary_hover": "#d67d47",
+          "border": "#e8915b40",
+          "shadow": "#2d4a4a",
+          "primary_button_background": "#e8915b",
           "primary_button_text": "#ffffff",
-          "primary_button_border": "#E8915B",
-          "primary_button_hover_background": "#D67D47",
+          "primary_button_border": "#e8915b",
+          "primary_button_hover_background": "#d67d47",
           "primary_button_hover_text": "#ffffff",
-          "primary_button_hover_border": "#D67D47",
+          "primary_button_hover_border": "#d67d47",
           "secondary_button_background": "rgba(0,0,0,0)",
-          "secondary_button_text": "#2D4A4A",
-          "secondary_button_border": "#2D4A4A",
-          "secondary_button_hover_background": "#2D4A4A14",
-          "secondary_button_hover_text": "#2D4A4A",
-          "secondary_button_hover_border": "#2D4A4A",
+          "secondary_button_text": "#2d4a4a",
+          "secondary_button_border": "#2d4a4a",
+          "secondary_button_hover_background": "#2d4a4a14",
+          "secondary_button_hover_text": "#2d4a4a",
+          "secondary_button_hover_border": "#2d4a4a",
           "input_background": "#ffffff",
-          "input_text_color": "#2D4A4A",
-          "input_border_color": "#E8915B",
+          "input_text_color": "#2d4a4a",
+          "input_border_color": "#e8915b",
           "input_hover_background": "#ffffff",
           "variant_background_color": "#ffffff",
-          "variant_text_color": "#2D4A4A",
-          "variant_border_color": "#E8915B40",
-          "variant_hover_background_color": "#E8915B20",
-          "variant_hover_text_color": "#2D4A4A",
-          "variant_hover_border_color": "#E8915B",
-          "selected_variant_background_color": "#E8915B",
+          "variant_text_color": "#2d4a4a",
+          "variant_border_color": "#e8915b40",
+          "variant_hover_background_color": "#e8915b21",
+          "variant_hover_text_color": "#2d4a4a",
+          "variant_hover_border_color": "#e8915b",
+          "selected_variant_background_color": "#e8915b",
           "selected_variant_text_color": "#ffffff",
-          "selected_variant_border_color": "#E8915B",
-          "selected_variant_hover_background_color": "#D67D47",
+          "selected_variant_border_color": "#e8915b",
+          "selected_variant_hover_background_color": "#d67d47",
           "selected_variant_hover_text_color": "#ffffff",
-          "selected_variant_hover_border_color": "#D67D47"
+          "selected_variant_hover_border_color": "#d67d47"
         }
       },
       "scheme-2": {
@@ -114,7 +125,7 @@
           "foreground": "#000000cf",
           "primary": "#000000cf",
           "primary_hover": "#ffffff",
-          "border": "#DFDFDF",
+          "border": "#dfdfdf",
           "shadow": "#000000",
           "primary_button_background": "#000000",
           "primary_button_text": "#ffffff",
@@ -341,9 +352,7 @@
           "selected_variant_hover_border_color": "#1a1a1a"
         }
       }
-    },
-    "logo_height": 36,
-    "logo_height_mobile": 28
+    }
   },
   "presets": {
     "Horizon": {
